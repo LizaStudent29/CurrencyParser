@@ -15,6 +15,8 @@ import java.util.concurrent.Executors;
 
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
+import io.micrometer.core.instrument.MeterRegistry;
+import io.micrometer.core.instrument.simple.SimpleMeterRegistry;
 
 class RatesCollectorServiceTest {
 
@@ -35,12 +37,14 @@ class RatesCollectorServiceTest {
         ExecutorService executor = Executors.newFixedThreadPool(1);
 
         LogDaemonStarter logDaemon = new LogDaemonStarter();
+        MeterRegistry meterRegistry = new SimpleMeterRegistry();
 
         RatesCollectorService service = new RatesCollectorService(
                 List.of(parser),
                 executor,
                 repo,
-                logDaemon
+                logDaemon,
+            meterRegistry 
         );
 
         service.collectRates();

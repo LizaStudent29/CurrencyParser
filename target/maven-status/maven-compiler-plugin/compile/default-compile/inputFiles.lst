@@ -1,0 +1,14 @@
+/Users/lizailinykh/CurrencyParser/src/main/java/com/example/currencyparser/parser/CbrRatesParser.java
+/Users/lizailinykh/CurrencyParser/src/main/java/com/example/currencyparser/CurrencyParserApplication.java
+/Users/lizailinykh/CurrencyParser/src/main/java/com/example/currencyparser/concurrency/LogDaemonStarter.java
+/Users/lizailinykh/CurrencyParser/src/main/java/com/example/currencyparser/config/ExecutorConfig.java
+/Users/lizailinykh/CurrencyParser/src/main/java/com/example/currencyparser/config/RestTemplateConfig.java
+/Users/lizailinykh/CurrencyParser/src/main/java/com/example/currencyparser/controller/PerformanceController.java
+/Users/lizailinykh/CurrencyParser/src/main/java/com/example/currencyparser/controller/RatesController.java
+/Users/lizailinykh/CurrencyParser/src/main/java/com/example/currencyparser/service/ParsingMetricsService.java
+/Users/lizailinykh/CurrencyParser/src/main/java/com/example/currencyparser/service/ScheduledTasks.java
+/Users/lizailinykh/CurrencyParser/src/main/java/com/example/currencyparser/service/RatesCollectorService.java
+/Users/lizailinykh/CurrencyParser/src/main/java/com/example/currencyparser/entity/CurrencyRate.java
+/Users/lizailinykh/CurrencyParser/src/main/java/com/example/currencyparser/repository/CurrencyRateRepository.java
+/Users/lizailinykh/CurrencyParser/src/main/java/com/example/currencyparser/config/WebClientConfig.java
+/Users/lizailinykh/CurrencyParser/src/main/java/com/example/currencyparser/parser/RatesParser.java

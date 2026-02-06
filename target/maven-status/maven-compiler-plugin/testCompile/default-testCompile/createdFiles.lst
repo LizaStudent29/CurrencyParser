@@ -1,0 +1,6 @@
+com/example/currencyparser/CurrencyParserApplicationTests.class
+com/example/currencyparser/benchmark/ParsingBenchmark$CurrencyRate.class
+com/example/currencyparser/benchmark/ParsingBenchmark.class
+com/example/currencyparser/benchmark/JmhRunner.class
+com/example/currencyparser/controller/RatesControllerTest.class
+com/example/currencyparser/service/RatesCollectorServiceTest.class
